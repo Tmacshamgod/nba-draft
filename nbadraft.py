@@ -31,4 +31,4 @@ for year in range(1966, 2016):
     draft_df.drop('Rk', axis='columns', inplace=True)
     draft_df['Pk'] = draft_df['Pk'].astype(int) 
     
-    draft_df.to_csv("draft_data_1966_to_2015.csv")
+    draft_df.to_csv("draft_data_1966_to_2016.csv")
